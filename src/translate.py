@@ -10,4 +10,4 @@ def get_translation(word, src, dest):
     return translator.translate(word, src=googletrans.LANGCODES[src], dest=googletrans.LANGCODES[dest]).text
 
 def get_all_languages():
-    return json.dumps(list(googletrans.LANGCODES.keys()))
+    return list(googletrans.LANGCODES.keys())
