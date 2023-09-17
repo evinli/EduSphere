@@ -1,5 +1,5 @@
 # EduSphere
-Full stack VisionOS project for Hack the North 2023 (only the backend api calls for now).
+Backend API endpoints for the full stack VisionOS project 'EduSphere' developed for Hack the North 2023.
 
 ### Install dependencies
 ```
