@@ -12,11 +12,14 @@ def get_translation():
     dest = request.args.get('dest')
     return translate.get_translation(word, src, dest)
 
-# j
+# Example: http://127.0.0.1:5000/languages
 @app.route('/languages', methods=['GET'])
 def get_languages():
     return translate.get_all_languages()
 
+@app.route('/chatbot-query', METHODS=['POST'])
+def chatbot_query():
+    
 
 if __name__ == '__main__':
     app.run()
