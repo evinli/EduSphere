@@ -4,7 +4,7 @@ Full stack VisionOS project for Hack the North 2023 (only the backend api calls 
 ### Install dependencies
 ```
 pip install googletrans==3.1.0a0
-pip install coehere
+pip install --upgrade cohere
 pip install json
 ```
 
